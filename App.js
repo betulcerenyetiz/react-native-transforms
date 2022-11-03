@@ -101,20 +101,20 @@ const App = () => (
       style={[
         styles.box,
         {
-          transform: [{translateX: -50}],
+          transform: [{translateX: 50}],
         },
       ]}>
-      <Text style={styles.text}>TranslateX by -50 </Text>
+      <Text style={styles.text}>TranslateX by 50 </Text>
     </View>
 
     <View
       style={[
         styles.box,
         {
-          transform: [{translateY: 50}],
+          transform: [{translateY: -140}],
         },
       ]}>
-      <Text style={styles.text}>TranslateY by 50 </Text>
+      <Text style={styles.text}>TranslateY by -140 </Text>
     </View>
   </ScrollView>
 );
@@ -125,8 +125,8 @@ const styles = StyleSheet.create({
     paddingBottom: 60,
   },
   box: {
-    height: 100,
-    width: 100,
+    height: 120,
+    width: 120,
     borderRadius: 100,
     marginVertical: 50,
     backgroundColor: 'pink',
